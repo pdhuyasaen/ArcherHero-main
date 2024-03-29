@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5aacc5f6b20fd47bdfeabffdde71c6, type: 3}
+  m_Name: BotData
+  m_EditorClassIdentifier: 
+  botTypes:
+  - name: MinionNear
+    botPrefab: {fileID: 8746075173495993959, guid: ad7b6372c0cc0e842b2fb6ebe5897ea9, type: 3}
+    health: 3
+    damage: 1
+  - name: MinionFar
+    botPrefab: {fileID: 8746075173495993959, guid: 8c22b66f8abed054491619463ea10566, type: 3}
+    health: 3
+    damage: 1
